@@ -39,7 +39,7 @@ var fp : text;
     s : ken; 
     k : integer;
 begin
-  assign(fp,'data_utf-8.csv'); reset(fp);
+  assign(fp,'ファイル名'); reset(fp);
   k := 1;
   while true do
   begin
@@ -268,7 +268,7 @@ var i : integer;
     s : ken;
     fp : text;
 begin
-   assign(fp,'data_utf-8.csv'); 
+   assign(fp,'ファイル名'); 
    rewrite(fp);
    append(fp);
    table[48].EP := '%%%%%%';
